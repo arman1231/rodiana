@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <title>Химчистка жалюзи | Родиана</title>
+  <meta name="description" content="
+    Профессиональная химчистка всех видов жалюзи в Москве и области" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+  <section class="modal hidden" id="modal-1" data-modal>
+   
+      <div class="modal__main">
+        <div class="modal__main-caption">
+          Родиана
+        </div>
+        <div class="modal__main-close" data-modal-close>
+          <i class="far fa-times-circle"></i>
+        </div>
+        <form>
+          <input type="tel" id="phone" name="tel" placeholder="Номер телефона">
+          <input type="text" id="code" name="code" placeholder="Промокод (если есть)">
+          <p>Есть промокод?</p>
+          <h3>Ваш адрес</h3>
+          <input type="text" id="street" name="street" placeholder="Например, Карла Маркса 12">
+          <input type="text" id="unit" name="unit" placeholder="Кв / офис">
+          <input type="text" id="gate" name="gate" placeholder="Подъезд">
+          <input type="text" id="floor" name="floor" placeholder="Этаж">
+          <input type="textarea" id="message" name="comment" placeholder="Комментарий к заказу">
+          <p class="confid">Нажимая на кнопку вы даёте согласие на обработку персональных данных
+            </p>
+            <p class="confid">Гарантия конфиденциальности</p>
+            <div class="modal__main-button" id="submit">
+              <a href="javascript: void(0);" >Заказать</a>
+            </div>
+          
+            
+          
+
+          <div class="result"></div>
+          <p>Остались вопросы? Звоните <a href="tel:+74959823710">+7 (495) 982-37-10</a></p>
+        </form>
+      </div>
+   
+  </section>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <div class="info">
+          <div class="info__top"><i class="fas fa-map-marker-alt"></i>Москва, пер. Васнецова, д.9, стр.1</div>
+          <div class="info__bottom">
+            <i class="fas fa-phone"></i><span><a href="tel:+74959823710">+7 (495) 982-37-10</a></span> с 9:00 до 23:00
+          </div>
+        </div>
+        <div class="logo">Родиана</div>
+        <div class="order__btn" data-modal-button="modal-1">
+          <a href="#/">заказать онлайн</a>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="header__bottom-left">
+          <div class="header__bottom-left-caption">
+            <h1>Профессиональная
+              химчистка жалюзи</h1>
+          </div>
+          <div class="header__bottom-left-desc">
+            Промышленная химчитска и реставрация жалюзи
+          </div>
+          <div class="header__bottom-left-order">
+            <div class="header__bottom-left-order-left">
+              <div class="header__bottom-left-order-caption">
+                Мы сможем приехать:
+              </div>
+              <div class="header__bottom-left-order-list">
+                Сегодня, 21 Октября
+              </div>
+              <div class="header__bottom-left-order-button" data-modal-button="modal-3">
+                <a href="#/">заказать онлайн</a>
+              </div>
+            </div>
+            <div class="header__bottom-left-order-right">
+              <span class="orange">
+                Скидка 350₽
+                на первый заказ
+              </span>
+              <span>
+                Промокод:
+              </span>
+              <span class="promo">FIRST350</span>
+            </div>
+          </div>
+        </div>
+        <div class="header__bottom-right">
+          <img src="img/header_img.png" alt="Химчистка жалюзи">
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="how">
+    <div class="container">
+      <div class="main_caption">
+        <h2>Как это работает</h2>
+      </div>
+      <div class="how__section">
+        <div class="how__section-item">
+          <img src="img/delivery-van.png" alt="">
+          <span>Забираем грязные жалюзи
+          </span>
+          <span>Бесплатно производим демонтаж</span>
+        </div>
+        <div class="how__section-item arrow">
+          <img src="img/right-arrow.png" alt="">
+        </div>
+        <div class="how__section-item">
+          <img src="img/laundry.png" alt="">
+          <span>Производим очистку гирепалергенными
+            средствами в промышленных условиях</span>
+        </div>
+        <div class="how__section-item arrow">
+          <img src="img/right-arrow.png" alt="">
+        </div>
+        <div class="how__section-item">
+          <img src="img/laundry-service.png" alt="">
+          <span>Привозим чистые жалюзи
+            Бесплатно производим монтаж</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="price">
+    <div class="container">
+      <div class="main_caption">
+        <h2>Цены на химчистку жалюзи</h2>
+      </div>
+      <div class="section__price">
+        <div class="section__price-item">
+          <div class="section__price-item-left">
+            <img src="img/textiles.png" alt="">
+            <div class="text">
+              <span>Тканевые</span><span>Срок чистки – 4 дня</span>
+            </div>
+          </div>
+          <div class="section__price-item-right">
+            <span>250 ₽/М<sub>2</sub></span>
+          </div>
+        </div>
+        <div class="section__price-item">
+          <div class="section__price-item-left">
+            <img src="img/plastic-bag.png" alt="">
+            <div class="text">
+              <span>Пластиковые</span><span>Срок чистки – 4 дня</span>
+            </div>
+          </div>
+          <div class="section__price-item-right">
+            <span>170 ₽/М<sub>2</sub></span>
+          </div>
+        </div>
+        <div class="section__price-item">
+          <div class="section__price-item-left">
+            <img src="img/mesh.png" alt="">
+            <div class="text">
+              <span>Алюминиевые</span><span>Срок чистки – 4 дня</span>
+            </div>
+          </div>
+          <div class="section__price-item-right">
+            <span>120 ₽/М<sub>2</sub></span>
+          </div>
+        </div>
+        <div class="section__price-item">
+          <div class="section__price-item-left">
+            <img src="img/wood-board.png" alt="">
+            <div class="text">
+              <span>Деревянные</span><span>Срок чистки – 4 дня</span>
+            </div>
+          </div>
+          <div class="section__price-item-right">
+            <span>120 ₽/М<sub>2</sub></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="calc">
+    <div class="container">
+      <div class="main_caption calc-caption">
+        <h2>Калькулятор стоимости</h2>
+      </div>
+      <div class="calc__main">
+
+
+        <div class="calc__items">
+          <div class="calc__item">
+            <div class="calc__item-caption">
+              <span>1</span>
+              <span>Вид</span>
+            </div>
+            <div class="calc__item-type">
+              <label class="calc__item-type-item-label">
+                <input type="radio" class="checkbox" name="material" id="Тканевые" value="250">
+                <div class="calc__item-type-item">
+                  <div class="calc__item-type-caption">
+                    Тканевые
+                  </div>
+                  <img src="img/textiles.png" alt="">
+                  <div class="calc__item-type-price">
+                    250 ₽/М2
+                  </div>
+                </div>
+              </label>
+              <label class="calc__item-type-item-label">
+                <input type="radio" class="checkbox" name="material" id=" Пластиковые" value="170">
+                <div class="calc__item-type-item">
+                  <div class="calc__item-type-caption">
+                    Пластиковые
+                  </div>
+                  <img src="img/plastic-bag.png" alt="">
+                  <div class="calc__item-type-price">
+                    170 ₽/М2
+                  </div>
+                </div>
+              </label>
+              <label class="calc__item-type-item-label">
+                <input type="radio" class="checkbox" name="material" id="Алюминиевые" value="120">
+                <div class="calc__item-type-item">
+                  <div class="calc__item-type-caption">
+                    Алюминиевые
+                  </div>
+                  <img src="img/mesh.png" alt="">
+                  <div class="calc__item-type-price">
+                    120 ₽/М2
+                  </div>
+                </div>
+              </label>
+              <label class="calc__item-type-item-label">
+                <input type="radio" class="checkbox" name="material" id="Деревянные" value="120">
+                <div class="calc__item-type-item">
+                  <div class="calc__item-type-caption">
+                    Деревянные
+                  </div>
+                  <img src="img/wood-board.png" alt="">
+                  <div class="calc__item-type-price">
+                    120 ₽/М2
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+          <div class="calc__item">
+            <div class="calc__item-caption">
+              <span>2</span>
+              <span>Размер</span>
+            </div>
+            <div class="calc__item-slider">
+              <p>Высота жалюзи: <span id="height_value"></span></p>
+              <input type="range" min="0" max="10" value="0" step="0.1" class="slider" id="height_range">
+            </div>
+            <div class="calc__item-slider">
+              <p>Ширина жалюзи: <span id="width_value"></span></p>
+              <input type="range" min="0" max="100" value="0" step="0.1" class="slider" id="width_range">
+            </div>
+          </div>
+          <div class="calc__item">
+            <div class="calc__item-caption">
+              <span>3</span>
+              <span>Дополнительные услуги</span>
+            </div>
+            <div class="calc__additional">
+              <label class="calc__additional-item-label">
+                <div class="calc__additional-item">
+                  <span>Снять жалюзи</span>
+                  <span><input type="checkbox" class="checkbox2" checked>
+                    <span>0 ₽</span></span>
+
+                </div>
+              </label>
+              <label class="calc__additional-item-label">
+                <div class="calc__additional-item">
+                  <span>Повесить жалюзи</span>
+                  <span><input type="checkbox" class="checkbox2" checked>
+                    <span>0 ₽</span></span>
+                </div>
+              </label>
+              <label class="calc__additional-item-label">
+                <div class="calc__additional-item">
+                  <span>Реставрация жалюзи</span>
+                  <span> <input type="checkbox" class="checkbox2">
+                    <span class="additionalSpan">по договорённости</span></span>
+                </div>
+              </label>
+            </div>
+          </div>
+          
+        </div>
+        <div class="calc_calculation">
+          <div class="calc__item-caption">
+            <span>4</span>
+            <span>Стоимость</span>
+          </div>
+          <div class="calc_calculation_form">
+            <span id="blind_type">Тип жалюзи</span>
+            <span id="squarefeet">Общая площадь 0</span>
+            <span id="total">0 ₽</span>
+            <span id="time">Срок чистки — 4 дня</span>
+            <div class="order__btn_form" data-modal-button="modal-3">
+              <a href="#/"> заказать онлайн</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <section class="aftercalc">
+    <div class="container">
+      <div class="aftercalc__questions">
+        <div class="aftercalccalc__questions-caption">
+          Остались вопросы?
+        </div>
+        <div class="aftercalccalc__questions-desc">
+          Есть вопросы
+  по чистке или доставке? <br>
+  Оставьте свой номер телефона,<br>
+  мы Вам перезвоним и ответим на все вопросы.
+        </div>
+        <div class="aftercalccalc__questions-phone">
+          <input class="aftercalccalc_tel" type="tel" placeholder="+7 ( )">
+          <div class="order__btn_form" data-modal-button="modal-4">
+            <a href="#/"> заказать онлайн</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="textcontent">
+    <div class="container">
+      <div class="main_caption">
+        <h2>Что нужно знать о химчистке жалюзи</h2>
+      </div>
+      <div class="textcontent__main">
+        <div class="textcontent__main-text">
+          <p>Химчистка жалюзи выполняется в строгом сооветсвии с современными технологическими стандартами, разработанными нашими специалистами. Благодаря инновационному подходу, учитываются структура и качество ткани, в следствии чего определяется нужный режим химчистки, что предотвращает собой повреджение, усадку, потерю цвета и истончение волокон. Весь объем производимых операций направлен на продление срока службы жалюзи, сохранение их внешнего вида и функциональности.</p>
+          <p>
+            Мы используем весь доступный спектр современных технологий при очищении жалюзи из ткани. Для организации оказания высококачественных услуг, нашими специалистами учитываются следующие факторы:
+          </p>
+          <ul>
+            <li><i class="fas fa-check"></i>цвет и фактуру материала;
+            </li>
+            <li><i class="fas fa-check"></i>рекомендации производителя по использованию химических средств;</li>
+            <li><i class="fas fa-check"></i>пожелания клиента;
+            </li>
+            <li><i class="fas fa-check"></i>глубину и характер загрязнений.</li>
+          </ul>
+          <p>Основными преимуществами нашей компании являются — внимательный и квалифицированный персонал, современное оборудование, использование гиппоалергенных и сертифицированных моющих средств.  Наши специалисты будут рады ответить на любые вопросы, относительно химчистки жалюзи и ценообразования по услуге. Для вашего удобства на сайте представлены номера телефонов, а так же форма онлайн заказа.</p>
+          <h3>Сколько стоит химчистка жалюзи</h3>
+          <p>Услуги по  химчистке жалюзи в Москве включают в себя химическую чистку, глажку, реставрацию, а также доставку. Бесплатная доставка организуется при сумме заказа более 8000₽.
+          </p>
+          <!-- <p>Консультанты «Родиана» рассчитают окончательную стоимость химчистки шалюзи в Москве. Если возникнет необходимость повышения цены в процессе выполнения заказа в счёт дополнительных работ, то все дополнительные расходы подлежат обязательному утверждению с клиентом.  Перед началом работ оговариваются все возможные риски и способы их минимизации, чтобы в процессе химчистки не навредить вещам, которые нам доверили для стирки и глажки.
+          </p> -->
+          <p>У вас нет необходимости самим везти жалюзи к нам на фабрику — наш специалист приедет к вам в офис в любое удобное время и произведет демонтаж. Через четыре или более дней специалист вернётся к вам для монтажа очищеных жалюзи. Сроки чистки оговариваются с заказчиком индивидуальном подярке и зависят от степени загрязения и объема работы.
+          </p>
+          <p>После подтверждения заказа, наш сотрудник выезжает к вам в течении часа. Нам важно сохранить время наших клиентов при использовании наших услуг. Для выбора подходящего времени визита нашего сотрудника, оставьте заявку на сайте либо по позвоните по телефону. Мы работаем ежедневно без праздничных и выходных дней.</p>
+          <p>Жалюзи требуют регулярной химчистки — желательно производить очистку каждый сезон. На выполнение процедуры требуются затраты времени и сил, а также есть нужда в определенных навыках от исполнителя. Чтобы качественно произвести химчистку жалюзи, не испортив материал, и добиться нужного результата, стоит обратиться к профессионалам. В нашей компании готовы качественно оказать такую услугу. </p>
+        </div>
+       <div class="textcontent__main-images">
+         <img src="img/clean1.jpg" alt="">
+         <img src="img/clean2.jpg" alt="">
+         <img src="img/clean3.jpg" alt="">
+         <img src="img/clean4.jpg" alt="">
+       </div>
+      </div>
+    </div>
+  </section>
+  <section class="advantage">
+    <div class="container">
+      <div class="main_caption">
+        <h2>Почему работать с нами очень удобно</h2>
+      </div>
+      <div class="advantage__items">
+        <div class="advantage__items-item">
+          <img src="img/day-and-night.png" alt="">
+          <h3>Гибкий график</h3>
+          <span>Приедем к вам в любое
+            удобное время 
+            с 8:00 до 23:00</span>
+        </div>
+        <div class="advantage__items-item">
+          <img src="img/blind.png" alt="">
+          <h3>Доставка, демонтаж, монтаж бесплатно</h3>
+          <span>Услуги монтажа и демонтажа
+            производятся без взимания 
+            дополнитеной платы</span>
+        </div>
+        <div class="advantage__items-item">
+          <img src="img/window-cleaner.png" alt="">
+          <h3>Экологичные средства</h3>
+          <span>В работе используются
+            только проверенные и 
+            гиппоалергенные средства</span>
+        </div>
+        <div class="advantage__items-item">
+          <img src="img/wallet.png" alt="">
+          <h3>Удобная оплата</h3>
+          <span>Есть возможность оплаты
+            наличным и безналичным
+            способом</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="review">
+    <div class="container">
+      <div class="main_caption">
+        <h2>Отзывы клиентов Rodiana</h2>
+      </div>
+      <div class="review__main">
+        <div class="review__main-item">
+          <img class="minimized" src="img/review/1.jpg" alt="">
+          <h4>Благодарность от ГАУ "МНПЦ реабилитации инвалидов с ДЦП"</h4>
+        </div>
+        <div class="review__main-item">
+          <img class="minimized" src="img/review/2.jpg" alt="">
+          <h4>Благодарность от "Технопарк Орбита"</h4>
+        </div>
+        <div class="review__main-item">
+          <img class="minimized" src="img/review/7.jpg" alt="">
+          <h4>Благодарность от "Рускомпозит"</h4>
+        </div>
+        <div class="review__main-item">
+          <img class="minimized"src="img/review/4.jpg" alt="">
+          <h4>Благодарность от "Департамент социльной защиты города Москвы</h4>
+        </div>
+        <div class="review__main-item">
+          <img class="minimized" src="img/review/5.jpg" alt="">
+          <h4>Благодарность от "Агрохимэкспорт"</h4>
+        </div>
+        <div class="review__main-item">
+          <img class="minimized" src="img/review/8.jpg" alt="">
+          <h4>Благодарность от "Рособоронэкспорт"</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="delivery">
+    <div class="container">
+      <div class="main_caption">
+        <h2>Служба доставки</h2>
+      </div>
+      <div class="delivery__main">
+        <div class="delivery__main-map">
+          <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9224a9789cfeccbabc14aa52219c5e2c3219665a74dbaea75f5f060a127534d5&amp;width=450&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+        <div class="delivery__main-text">
+          <ul>
+            <li><i class="fas fa-check"></i>Доставка осуществляется с 8:00 до 23:00</li>
+            <li><i class="fas fa-check"></i>Бесплатная доставка, демонтаж, монтаж</li>
+            <li><i class="fas fa-check"></i>Доставка по всей территории Москвы + МО</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="clients">
+    <div class="container">
+      <div class="main_caption">
+        <h2>Нам доверяют</h2>
+      </div>
+      <div class="clients__main">
+        <img src="img/clients/c1.jpg" alt="">
+        <img src="img/clients/c2.jpg"  alt="">
+        <img src="img/clients/c3.jpg"  alt="">
+        <img src="img/clients/c4.jpg"  alt="">
+        <img src="img/clients/c5.jpg"  alt="">
+        <img src="img/clients/c6.jpg"  alt="">
+        <img src="img/clients/c7.jpg"  alt="">
+        <img src="img/clients/c8.jpg"  alt="">
+        <img src="img/clients/c9.jpg"  alt="">
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__main">
+        <div class="footer__main-info">
+          <p><a href="mailto:info@rodiana.ru">info@rodiana.ru</a> <a href="tel:+74959823710"> +7 (495) 982-37-10</a>
+            </p>
+            <p>© ООО "Родиана", 2006 - 2021
+            </p>
+            <p>
+              ИНН 7743596724, ОГРН 1067746630600
+            </p>
+            <p>
+              129090, г. Москва, пер. Васнецова, д.9, стр.1
+            </p>
+        </div>
+        <div class="footer__main-social">
+          <div class="footer__main-social-messanger">
+            <p>Пишите нам</p>
+          </div>
+          <div class="footer__main-social-soc">
+            Наши соц сети
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--[if lt IE 9]>
+      <script src="libs/html5shiv/es5-shim.min.js"></script>
+      <script src="libs/html5shiv/html5shiv.min.js"></script>
+      <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+      <script src="libs/respond/respond.min.js"></script>
+    <![endif]-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+  <script src="js/common.js"></script>
+
+  <!-- Yandex.Metrika counter -->
+
+  <!-- /Yandex.Metrika counter -->
+  <!-- Google Analytics counter -->
+  <!-- /Google Analytics counter -->
+</body>
+
+</html>
