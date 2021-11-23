@@ -47,7 +47,7 @@ body {
   background-color: #bec6d3;
 }
 .container {
-  width: 1440px;
+  max-width: 1920px;
   margin: 0 auto;
 
 }
@@ -107,6 +107,7 @@ body {
 }
 .header__bottom-left-desc {
   font-size: 18px;
+  max-width: 464px;
 }
 .header__bottom-left-order {
   margin-top: 50px;
@@ -255,6 +256,12 @@ body {
 .section__price-item-right {
   font-weight: 700;
   font-size: 16px;
+}
+.price_bottom_text{
+    text-align: center;
+    font-size: 24px;
+    color: #888888;
+    margin-bottom: 20px;
 }
 .calc-caption {
   margin-top: -50px;

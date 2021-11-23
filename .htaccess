@@ -1,0 +1,17 @@
+RewriteEngine On
+
+
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^(.*)index\.html$ 
+RewriteRule .* %1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^(.*)phone/index\.html$ 
+RewriteRule .* %1 [R=301,L]
+
+Options +FollowSymLinks
+RewriteCond %{HTTP_HOST} ^xn80adctak-xnp1a.1gb.ru
+RewriteRule ^(.*)$ https://xn--80aarfbaelme0dm8a4a7i.xn--p1ai/$1 [R=permanent,L]
+
+ErrorDocument 404 /404.php

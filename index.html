@@ -40,12 +40,12 @@
           <input type="tel" id="phone" name="tel" placeholder="Номер телефона">
           <input type="text" id="code" name="code" placeholder="Промокод (если есть)">
           <p>Есть промокод?</p>
-          <h3>Ваш адрес</h3>
+          <!-- <h3>Ваш адрес</h3>
           <input type="text" id="street" name="street" placeholder="Например, Карла Маркса 12">
           <input type="text" id="unit" name="unit" placeholder="Кв / офис">
           <input type="text" id="gate" name="gate" placeholder="Подъезд">
           <input type="text" id="floor" name="floor" placeholder="Этаж">
-          <input type="textarea" id="message" name="comment" placeholder="Комментарий к заказу">
+          <input type="textarea" id="message" name="comment" placeholder="Комментарий к заказу"> -->
           <p class="confid">Нажимая на кнопку вы даёте согласие на обработку персональных данных
             </p>
             <p class="confid">Гарантия конфиденциальности</p>
@@ -57,7 +57,7 @@
           
 
           <div class="result"></div>
-          <p>Остались вопросы? Звоните <a href="tel:+74959823710">+7 (495) 982-37-10</a></p>
+          <p>Остались вопросы? Звоните <a href="tel:+79253423514">+7 (925) 342-35-14</a></p>
         </form>
       </div>
    
@@ -68,7 +68,7 @@
         <div class="info">
           <div class="info__top"><i class="fas fa-map-marker-alt"></i>Москва, пер. Васнецова, д.9, стр.1</div>
           <div class="info__bottom">
-            <i class="fas fa-phone"></i><span><a href="tel:+74959823710">+7 (495) 982-37-10</a></span> с 9:00 до 23:00
+            <i class="fas fa-phone"></i><span><a href="tel:+79253423514">+7 (925) 342-35-14</a></span> с 9:00 до 23:00
           </div>
         </div>
         <div class="logo">Родиана</div>
@@ -83,7 +83,7 @@
               химчистка жалюзи</h1>
           </div>
           <div class="header__bottom-left-desc">
-            Промышленная химчитска и реставрация жалюзи
+            Промышленная химчитска, реставрация жалюзи и изготовление жалюзи
           </div>
           <div class="header__bottom-left-order">
             <div class="header__bottom-left-order-left">
@@ -154,48 +154,63 @@
       <div class="section__price">
         <div class="section__price-item">
           <div class="section__price-item-left">
-            <img src="img/textiles.png" alt="">
+            <img src="img/textiles.png" alt="текстиль">
             <div class="text">
-              <span>Тканевые</span><span>Срок чистки – 4 дня</span>
+              <span>До 10 окон (2х2)</span><span>Срок чистки – 6 дней</span>
+            </div>
+          </div>
+          <div class="section__price-item-right">
+            <span>1200 ₽ за 1 окно</span>
+          </div>
+        </div>
+        <div class="section__price-item">
+          <div class="section__price-item-left">
+            <img src="img/textiles.png" alt="текстиль">
+            <div class="text">
+              <span>Больше 10 окон (2х)</span><span>Срок чистки – 6 дней</span>
             </div>
           </div>
           <div class="section__price-item-right">
             <span>250 ₽/М<sub>2</sub></span>
           </div>
         </div>
-        <div class="section__price-item">
+        
+        <!-- <div class="section__price-item">
           <div class="section__price-item-left">
             <img src="img/plastic-bag.png" alt="">
             <div class="text">
-              <span>Пластиковые</span><span>Срок чистки – 4 дня</span>
+              <span>Пластиковые</span><span>Срок чистки – 6 дней</span>
             </div>
           </div>
           <div class="section__price-item-right">
             <span>170 ₽/М<sub>2</sub></span>
           </div>
-        </div>
-        <div class="section__price-item">
+        </div> -->
+        <!-- <div class="section__price-item">
           <div class="section__price-item-left">
             <img src="img/mesh.png" alt="">
             <div class="text">
-              <span>Алюминиевые</span><span>Срок чистки – 4 дня</span>
+              <span>Алюминиевые</span><span>Срок чистки – 6 дней</span>
             </div>
           </div>
           <div class="section__price-item-right">
             <span>120 ₽/М<sub>2</sub></span>
           </div>
-        </div>
-        <div class="section__price-item">
+        </div> -->
+        <!-- <div class="section__price-item">
           <div class="section__price-item-left">
             <img src="img/wood-board.png" alt="">
             <div class="text">
-              <span>Деревянные</span><span>Срок чистки – 4 дня</span>
+              <span>Деревянные</span><span>Срок чистки – 6 дней</span>
             </div>
           </div>
           <div class="section__price-item-right">
             <span>120 ₽/М<sub>2</sub></span>
           </div>
-        </div>
+        </div> -->
+      </div>
+      <div class="price_bottom_text">
+        Минимальный заказ 8000₽
       </div>
     </div>
   </section>
@@ -218,7 +233,7 @@
                 <input type="radio" class="checkbox" name="material" id="Тканевые" value="250">
                 <div class="calc__item-type-item">
                   <div class="calc__item-type-caption">
-                    Тканевые
+                    Больше 10 окон (2х2)
                   </div>
                   <img src="img/textiles.png" alt="">
                   <div class="calc__item-type-price">
@@ -226,7 +241,7 @@
                   </div>
                 </div>
               </label>
-              <label class="calc__item-type-item-label">
+              <!-- <label class="calc__item-type-item-label">
                 <input type="radio" class="checkbox" name="material" id=" Пластиковые" value="170">
                 <div class="calc__item-type-item">
                   <div class="calc__item-type-caption">
@@ -261,7 +276,7 @@
                     120 ₽/М2
                   </div>
                 </div>
-              </label>
+              </label> -->
             </div>
           </div>
           <div class="calc__item">
@@ -301,7 +316,7 @@
               </label>
               <label class="calc__additional-item-label">
                 <div class="calc__additional-item">
-                  <span>Реставрация жалюзи</span>
+                  <span>Реставрация жалюзи (мелкий ремонт, замена грузиков, цепочек)</span>
                   <span> <input type="checkbox" class="checkbox2">
                     <span class="additionalSpan">по договорённости</span></span>
                 </div>
@@ -319,7 +334,7 @@
             <span id="blind_type">Тип жалюзи</span>
             <span id="squarefeet">Общая площадь 0</span>
             <span id="total">0 ₽</span>
-            <span id="time">Срок чистки — 4 дня</span>
+            <span id="time">Срок чистки — 6 дней</span>
             <div class="order__btn_form" data-modal-button="modal-3">
               <a href="#/"> заказать онлайн</a>
             </div>
@@ -429,7 +444,7 @@
   <section class="review">
     <div class="container">
       <div class="main_caption">
-        <h2>Отзывы клиентов Rodiana</h2>
+        <h2>Отзывы клиентов Родиана</h2>
       </div>
       <div class="review__main">
         <div class="review__main-item">
@@ -500,12 +515,12 @@
     <div class="container">
       <div class="footer__main">
         <div class="footer__main-info">
-          <p><a href="mailto:info@rodiana.ru">info@rodiana.ru</a> <a href="tel:+74959823710"> +7 (495) 982-37-10</a>
+          <p><a href="mailto:rodiana@bk.ru">rodiana@bk.ru</a> <a href="tel:+79253423514"> +7 (925) 342-35-14</a>
             </p>
             <p>© ООО "Родиана", 2006 - 2021
             </p>
             <p>
-              ИНН 7743596724, ОГРН 1067746630600
+              ИНН 7143596724, ОГРН 1067746630600
             </p>
             <p>
               129090, г. Москва, пер. Васнецова, д.9, стр.1
@@ -538,8 +553,20 @@
   <script src="js/common.js"></script>
 
   <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+  m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-  <!-- /Yandex.Metrika counter -->
+  ym(86596122, "init", {
+       clickmap:true,
+       trackLinks:true,
+       accurateTrackBounce:true,
+       webvisor:true
+  });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/86596122" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
   <!-- Google Analytics counter -->
   <!-- /Google Analytics counter -->
 </body>

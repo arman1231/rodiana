@@ -140,10 +140,8 @@ modalWindow.style.top = scrollPosition + "px";
   ///AJAX отправка формы
   $("#submit").on("click", function() {
     console.log('click submit');
-      var name = $("#name").val(); // Получаем имя
-      var email = $("#email").val(); // Получаем e-mail
       var phone = $("#phone").val();
-      var message = $("#message").val(); // Получаем сообщение
+      var code = $("#code").val(); // Получаем сообщение
 
       $.ajax({
 
